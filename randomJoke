@@ -1,0 +1,8 @@
+import random
+
+
+list5 = ["I failed math so many times at school, I can’t even count.", "'Never trust atoms; they make up everything.", "I used to think I was indecisive. But now I’m not so sure."]
+def randJoke():
+    randomJoke = random.randrange(len(list5))
+    # Her anvendes en indbygget funktion: 'len' som er length.
+    return list5[randomJoke]
